@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+     border-collapse: collapse;
+     box-shadow: 2px 2px 3px 10px #4f6363;
+     margin: 36px auto;
+}
+
+table td{
+    border-bottom-color: 10px solid #8f4343;
+    padding: 12px ;
+    border:solid 2px lightblue
+    
+}
+.sem{
+    font-weight: 600;
+    text-align: center;
+}
+
+.sem-header td{
+    font-weight: 600;
+}
+
+table tr:hover{
+    background-color: rgb(16, 226, 156);
+}
+
+table tr:nth-child(even){
+    background-color: rgb(226, 222, 16);
+   
+}
